@@ -1,0 +1,27 @@
+
+
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    int b;
+    float media;
+
+    printf("inserisci il primo numero ");
+    scanf("%d", &a );
+
+
+    printf("inserisci il secondo numero ");
+    scanf("%d", &b);
+
+    media = (a + b)/2.0;
+
+    printf("la media è : %f ", media);
+
+    return 0;
+
+    
+
+
+}
